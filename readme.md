@@ -24,13 +24,14 @@ Route::get('user/{id}', array(
 ));
 ```
 
-You can now access your exposed named routes as a JSON object by calling the fetch routes method
+You can now access your exposed named routes as a JSON object by calling the fetch routes method (this could be called
+in your master blade layout for example).
 
 ```php
 Tura::fetchRoutes();
 ```
 
-The named routes will now be available in global scope by call the **tura** object
+The named routes will now be available in the javascript global scope by calling the **tura** object
 ```javascript
 console.log(tura)
 Object {home: "/", user.show: "user/{id}"}
