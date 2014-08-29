@@ -1,0 +1,20 @@
+{
+    "name": "jackpopp/tura",
+    "description": "",
+    "authors": [
+        {
+            "name": "Jack Hannigan Popp",
+            "email": "jack@jackpopp.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Jackpopp\\Tura": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
