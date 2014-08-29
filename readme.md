@@ -2,7 +2,7 @@
 
 Use laravel named routes in your javascript
 
-Register named routes in routes.php and add they key 'tura' with the value true to the options array.
+Register named routes in routes.php and add they key **tura** with the value true to the options array.
 Tura will only expose routes which have been set to be exposed.
 
 ```php 
@@ -30,7 +30,8 @@ You can now access your exposed named routes as a JSON object by calling the fet
 Tura::fetchRoutes();
 ```
 
-The named routes will now be available in global scope by call the 'tura' object
+The named routes will now be available in global scope by call the **tura** object
 ```javascript
+console.log(tura)
 Object {home: "/", user.show: "user/{id}"}
 ```
