@@ -35,9 +35,15 @@ The named routes will now be available in the javascript global scope by calling
 ```javascript
 console.log(tura)
 Object {home: "/", user.show: "user/{id}"}
+console.log(tura['user.show'])
+"user/{id}"
 ```
 
-To install via composer add **"jackpopp/tura": "dev-master"** to **require** in your composer.json file
+Install via composer add to require in composer.json
+
+```javacript
+"jackpopp/tura": "dev-master"
+```
 
 Add the service provider and class alias to app.php config (found in app/config/app.php)
 
