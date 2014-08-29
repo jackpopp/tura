@@ -1,1 +1,1 @@
-<script></script>
+<script>window.tura = {{ $routes }}</script>
