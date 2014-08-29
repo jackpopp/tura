@@ -1,6 +1,7 @@
 {
     "name": "jackpopp/tura",
-    "description": "",
+    "description": "Tura - use laravel named routes in your javascript.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jack Hannigan Popp",
