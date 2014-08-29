@@ -1,6 +1,6 @@
 # Tura
 
-Use laravel named routes in your javascript
+### Use laravel named routes in your javascript.
 
 Register named routes in routes.php and add they key **tura** with the value true to the options array.
 Tura will only expose routes which have been set to be exposed.
