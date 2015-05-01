@@ -36,7 +36,7 @@ class Tura {
 
         $routes = json_encode($this->getRoutes());
 
-        echo "<script>window.tura = {$routes}</script>";
+        return View::make('tura::tura.javascript');
     }
 
     /**
